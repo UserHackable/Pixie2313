@@ -1,12 +1,8 @@
 ** Drc report for Pixie2313.kicad_pcb **
-** Created on 2026-07-19T19:28:10 **
+** Created on 2026-07-19T19:30:20 **
 ** Report includes: Errors, Warnings, Exclusions **
 
 ** Found 16 DRC violations **
-[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
-    Local override; error
-    @(5.0800 mm, -11.4300 mm): Track [13] on B.Cu, length 8.8900 mm
-    @(6.3500 mm, -12.7000 mm): PTH pad 2 [VCC] of J1
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
     Local override; error
     @(5.0800 mm, -6.3500 mm): Track [RST] on F.Cu, length 5.0800 mm
@@ -15,6 +11,10 @@
     Local override; error
     @(6.3500 mm, -12.7000 mm): PTH pad 2 [VCC] of J1
     @(5.0800 mm, -11.4300 mm): Track [14] on F.Cu, length 6.3500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(5.0800 mm, -11.4300 mm): Track [13] on B.Cu, length 8.8900 mm
+    @(6.3500 mm, -12.7000 mm): PTH pad 2 [VCC] of J1
 [text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
     Rule: board setup constraints silk text height; warning
     @(4.7625 mm, -16.1925 mm): PCB text 'Enterprises' on F.Silkscreen
